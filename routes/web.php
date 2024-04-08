@@ -7,5 +7,5 @@ Route::post('/customers/create', 'App\Http\Controllers\CustomerController@create
 
 Route::get('/calendar/display', 'App\Http\Controllers\calendarController@display');
 
-Route::get('/calendar/json','App\Http\Controllers\CalendarController@json')->name('calendar.json');
+Route::get('/calendar/json','App\Http\Controllers\calendarController@json')->name('calendar.json');
 ?>
